@@ -18,7 +18,7 @@ class App extends Component {
 
     constructor(props) {
         super(props);
-        this.socket = io('http://localhost:3000');
+        this.socket = io('http://192.168.0.2:3000');
         this.addMessage = this.addMessage.bind(this);
         this.state = {
             messages: [],
