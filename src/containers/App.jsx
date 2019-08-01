@@ -4,6 +4,7 @@ import amber from '@material-ui/core/colors/amber';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Messenger from './Messenger';
+import SideBar from './SideBar';
 
 import 'typeface-roboto';
 
@@ -27,8 +28,8 @@ class App extends Component {
                 justify="center"
                 alignItems="stretch">
                     <Grid item xs={3}>
-                        <Box borderRight={1} height="-webkit-fill-available">
-                            FriendList
+                        <Box borderRight={1} borderBottom={1} height="-webkit-fill-available">
+                            <SideBar/>
                         </Box>
                     </Grid>
                     <Grid item xs={9}>
@@ -36,6 +37,7 @@ class App extends Component {
                             <Messenger/>
                         </Box>
                     </Grid>
+
                 </Grid>
             </MuiThemeProvider>
         );
