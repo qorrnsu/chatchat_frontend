@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Input } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
-export class InputBar extends Component {
+class InputBar extends Component {
     render() {
         return (
             <Grid container
@@ -22,3 +23,7 @@ export class InputBar extends Component {
 }
 
 export default InputBar
+
+// InputBar.PropTypes = {
+    
+// }

@@ -1,0 +1,44 @@
+{
+    "friend1": [
+        {
+            "user": "friend1",
+            "text": "Hey how are you?"
+        },
+        {
+            "user": "bella",
+            "text": "Hi, I am good. How about you?"
+        },
+        {
+            "user": "friend1",
+            "text": "Just fine, my gf dumped me."
+        }
+    ],
+    "friend2": [
+        {
+            "user": "friend2",
+            "text": "Yo, you owe me 100$"
+        },
+        {
+            "user": "bella",
+            "text": "Wtf?"
+        },
+        {
+            "user": "friend2",
+            "text": "Sorry wrong message"
+        }
+    ],
+    "friend3": [
+        {
+            "user": "bella",
+            "text": "are you there?"
+        },
+        {
+            "user": "bella",
+            "text": "why are you ignoring me?"
+        },
+        {
+            "user": "bella",
+            "text": "you are an asshole"
+        }
+    ]
+}
