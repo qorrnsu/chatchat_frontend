@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import Messenger from './Messenger';
 import SideBar from './SideBar';
 import io from 'socket.io-client';
+import Authentication from './Authentication';
 
 import 'typeface-roboto';
 import '../styles/App.css';
@@ -65,8 +66,8 @@ class App extends Component {
                             />
                         </Box>
                     </Grid>
-
                 </Grid>
+                <Authentication/>
             </MuiThemeProvider>
         );
     }
